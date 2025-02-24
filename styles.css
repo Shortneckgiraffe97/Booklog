@@ -1,0 +1,53 @@
+/* 배경과 전체적인 스타일 */
+body {
+    background-color: #FAF3E0; /* 따뜻한 베이지 톤 */
+    font-family: 'Arial', sans-serif; /* 부드러운 글씨체 */
+    text-align: center; /* 전체 중앙 정렬 */
+    color: #5A4633; /* 따뜻한 브라운 계열 글씨 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 제목 스타일 */
+h1, h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* INDEX 스타일 */
+h2 {
+    font-size: 24px;
+    color: #8B5E3B;
+}
+
+/* 버튼 스타일 */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: #D0893F; /* 따뜻한 오렌지-브라운 */
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background-color: #B5722A; /* 살짝 어두운 색으로 변경 */
+}
+
+/* 목록 스타일 - 점 제거 */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* 리스트 아이템 스타일 */
+li {
+    margin-bottom: 15px;
+    padding: 10px;
+}
